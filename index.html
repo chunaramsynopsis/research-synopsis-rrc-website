@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>आर.आर.सी. शोध-प्रस्तुति</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-body">
+  <main class="home-wrap">
+    <section class="hero-card">
+      <div class="badge">पीएच.डी. पंजीकरण हेतु संशोधित शोध रूपरेखा</div>
+
+      <h1>
+        लोक संस्कृति और क्षेत्रीय अस्मिता का हिंदी साहित्यिक-सांस्कृतिक विश्लेषण :
+        बाड़मेर-जैसलमेर अंचल के लोकगीतों के विशेष संदर्भ में
+      </h1>
+
+      <p class="subtitle">
+        बाड़मेर-जैसलमेर अंचल के लोकगीतों को लोकसंस्कृति, मौखिक परंपरा और क्षेत्रीय अस्मिता के साहित्यिक-सांस्कृतिक पाठ के रूप में प्रस्तुत करने वाली आर.आर.सी. प्रस्तुति।
+      </p>
+
+      <div class="info-grid">
+        <div>
+          <strong>शोधार्थी</strong>
+          <span>चूना राम</span>
+        </div>
+        <div>
+          <strong>शोध निर्देशिका</strong>
+          <span>डॉ. श्रीमती सविता टाक</span>
+        </div>
+        <div>
+          <strong>विषय</strong>
+          <span>हिंदी साहित्य</span>
+        </div>
+        <div>
+          <strong>विश्वविद्यालय</strong>
+          <span>महर्षि दयानन्द सरस्वती विश्वविद्यालय, अजमेर</span>
+        </div>
+        <div>
+          <strong>महाविद्यालय</strong>
+          <span>माणिक्य लाल वर्मा राजकीय महाविद्यालय, भीलवाड़ा</span>
+        </div>
+        <div>
+          <strong>सत्र</strong>
+          <span>2026</span>
+        </div>
+      </div>
+
+      <div class="button-row">
+        <button class="main-btn" onclick="openPasswordBox('presentation')">प्रस्तुति प्रारंभ करें</button>
+        <button class="secondary-btn" onclick="openPasswordBox('prep')">मेरा तैयारी कक्ष</button>
+      </div>
+
+      <p class="home-note">
+        यह प्रस्तुति शोध-सारांश की संरचना, उद्देश्य, शोध-प्रश्न, पद्धति, अध्याय-योजना, सीमाएँ और अपेक्षित योगदान को व्यवस्थित रूप में प्रस्तुत करती है।
+      </p>
+    </section>
+  </main>
+
+  <div id="passwordModal" class="modal hidden">
+    <div class="modal-box">
+      <button class="close-btn" onclick="closePasswordBox()">×</button>
+      <h2 id="modalTitle">पासवर्ड दर्ज करें</h2>
+      <p id="modalHint">कृपया निर्धारित पासवर्ड लिखें।</p>
+      <input type="password" id="passwordInput" placeholder="पासवर्ड दर्ज करें">
+      <button class="main-btn small" onclick="checkPassword()">प्रवेश करें</button>
+      <p id="passwordMessage" class="message"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    आर.आर.सी. समिति के समक्ष अकादमिक प्रस्तुति हेतु निर्मित
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
